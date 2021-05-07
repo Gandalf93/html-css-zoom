@@ -1,0 +1,49 @@
+#{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-main{
+    background-color: black;
+    
+}
+    
+.cont-interno{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    
+    
+}
+    
+    
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 98%;
+    
+   
+}
+
+.square{
+  background-color: skyblue;
+  width: calc(100% / 6 - 10px);
+  height: 150px;
+  flex-direction: row;
+  margin-top: 10px;
+}   
+    
+    
+   
+    
+
+    
+    
+
+
+   
