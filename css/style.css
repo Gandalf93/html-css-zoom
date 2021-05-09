@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
     
 
@@ -58,15 +59,21 @@
     height: 150px;
     flex-direction: row;
     margin: 5px;
-    } 
+}
+
+.square img{
+    width: 100%;
+    height: 100%;
+}
 
 .square span{
     display: flex;
     align-self: flex-end;
     color: white;
-    background-color: rgba(93, 82, 76, 0.5) ;
+    background-color: rgba(93, 82, 76, 0.6) ;
     padding: 5px;
     align-items: center;
+    position: absolute;
 }
 
 
