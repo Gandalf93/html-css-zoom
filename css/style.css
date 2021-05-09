@@ -2,15 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
 }
     
-
 .container-all{
     background-color: black;
 }
-    
-    
+   
+
 .container-main{
     background-color: black;
     display: flex;
@@ -18,7 +16,7 @@
     width: 100%;
 }
     
-
+    
 /* MENU ALTO */
 .menu-alto{
     display: flex;
@@ -33,6 +31,7 @@
     display: flex;
 }
     
+    
 /* CONTENITORE INTERNO */
 .cont-interno{
     display: flex;
@@ -43,6 +42,7 @@
     width: 100%;
     margin: 100px 0;
 }
+    
 
 /* ROWS AND SQUARES */
     
@@ -86,8 +86,7 @@
     margin-right: 5px;
 }
 
-    
-   
+
 /* FOOTER     */
 .cont-footer{
     display: flex;
@@ -162,6 +161,8 @@ footer .fas{
 .fa-share-square{
     color: #44BB01;
 }
+    
+   
 
 
 
